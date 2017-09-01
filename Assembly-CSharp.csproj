@@ -54,8 +54,6 @@
      <Compile Include="Assets\Scripts\Player\Player.cs" />
      <Compile Include="Assets\Scripts\Shot_boss\shot_boss.cs" />
      <Compile Include="Assets\Scripts\Shot_Category\kaiten.cs" />
-     <Compile Include="Assets\Scripts\UnityCameraAspect\CameraAspect.cs" />
-     <None Include="Assets\Scripts\UnityCameraAspect\Readme.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

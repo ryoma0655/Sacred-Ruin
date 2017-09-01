@@ -15,5 +15,8 @@ public class kaiten : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		transform.Rotate(new Vector3(0, 0, 90) * Time.deltaTime, Space.World);
+		if (transform.localEulerAngles.z != 25) {
+			Instantiate (Shot, transform.position, transform.rotation);
+		}
 	}
 }
